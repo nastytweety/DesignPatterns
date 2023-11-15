@@ -75,9 +75,9 @@ namespace ProtoType
 
         public static void DisplayValues(Person p)
         {
-            Console.WriteLine("      Name: {0:s}, Age: {1:d}, BirthDate: {2:MM/dd/yy}",
+            Console.WriteLine("      Name: {0}, Age: {1}, BirthDate: {2}",
                 p.Name, p.Age, p.BirthDate);
-            Console.WriteLine("      ID#: {0:d}", p.IdInfo.IdNumber);
+            Console.WriteLine("      ID#: {0}", p.IdInfo.IdNumber);
         }
     }
 }

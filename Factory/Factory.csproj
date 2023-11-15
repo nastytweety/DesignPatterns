@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{02AA44B4-92CD-4570-9FCA-5760D6986FE0}</ProjectGuid>
+    <ProjectGuid>{7875AA7F-28E9-41F9-8612-3C1DF764D13A}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>Builder</RootNamespace>
-    <AssemblyName>Builder</AssemblyName>
+    <RootNamespace>Factory</RootNamespace>
+    <AssemblyName>Factory</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -43,10 +43,13 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="IBuilder.cs" />
-    <Compile Include="Product.cs" />
+    <Compile Include="CreditCardFactorycs.cs" />
+    <Compile Include="ICreditCard.cs" />
+    <Compile Include="Bonus.cs" />
+    <Compile Include="Platinum.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Visa.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />

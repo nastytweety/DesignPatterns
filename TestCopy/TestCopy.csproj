@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{02AA44B4-92CD-4570-9FCA-5760D6986FE0}</ProjectGuid>
+    <ProjectGuid>{91787463-7E12-4181-927E-17A51945C656}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>Builder</RootNamespace>
-    <AssemblyName>Builder</AssemblyName>
+    <RootNamespace>TestCopy</RootNamespace>
+    <AssemblyName>TestCopy</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -43,8 +43,6 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="IBuilder.cs" />
-    <Compile Include="Product.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

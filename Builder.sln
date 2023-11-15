@@ -9,6 +9,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Singleton", "Singleton\Sing
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProtoType", "ProtoType\ProtoType.csproj", "{F77CD144-A759-4EF1-B12E-FFF21DFFF099}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestCopy", "TestCopy\TestCopy.csproj", "{91787463-7E12-4181-927E-17A51945C656}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Factory", "Factory\Factory.csproj", "{7875AA7F-28E9-41F9-8612-3C1DF764D13A}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +31,14 @@ Global
 		{F77CD144-A759-4EF1-B12E-FFF21DFFF099}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F77CD144-A759-4EF1-B12E-FFF21DFFF099}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F77CD144-A759-4EF1-B12E-FFF21DFFF099}.Release|Any CPU.Build.0 = Release|Any CPU
+		{91787463-7E12-4181-927E-17A51945C656}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{91787463-7E12-4181-927E-17A51945C656}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{91787463-7E12-4181-927E-17A51945C656}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{91787463-7E12-4181-927E-17A51945C656}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7875AA7F-28E9-41F9-8612-3C1DF764D13A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7875AA7F-28E9-41F9-8612-3C1DF764D13A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7875AA7F-28E9-41F9-8612-3C1DF764D13A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7875AA7F-28E9-41F9-8612-3C1DF764D13A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
